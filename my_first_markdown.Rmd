@@ -2,12 +2,15 @@
 title: "My First Markdown"
 author: "Iris Glas"
 date: "8 mei 2017"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+This is my first markdown file.
 
 ## R Markdown
 
